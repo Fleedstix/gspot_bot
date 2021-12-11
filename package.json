@@ -1,0 +1,19 @@
+{
+  "name": "gspottest_bot_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "mysql2": "^2.3.0",
+    "node-fetch": "^2.6.1",
+    "node-telegram-bot-api": "^0.54.0",
+    "nodemon": "^2.0.12",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon bot/bot.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
